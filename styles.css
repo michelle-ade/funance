@@ -4,7 +4,36 @@ body {
     font-family: sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: indianred;
+    display: flex;
+    font-size: larger;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: rgb(220, 131, 131);
+}
+
+ul li a.active {
+    background-color: rgb(160, 38, 38);
+}
+
 h1 {
+    color: indianred;
+    text-align: left;
+}
+
+p {
     color: indianred;
     text-align: left;
 }
@@ -29,5 +58,5 @@ th {
 }
 
 td {
-    padding: 5px;
+    padding: 5px 10px;
 }
