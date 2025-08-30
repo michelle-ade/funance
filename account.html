@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <script src="authscript.js" type="module"></script>
     <ul class="nav">
         <li>
             <a href="index.html">Dashboard</a>
@@ -24,6 +26,18 @@
     <h1>Account</h1>
 
     <p>Who are you!</p>
+
+    <form id="authForm">
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="password">Password</label><br>
+        <input type="text" id="password" name="password"><br><br>
+
+        <input id="signInBtn" type="submit" value="Sign In">
+        <p>or</p>
+        <input id="signUpBtn" type="submit" value="Create Account">
+    </form>
     
 </body>
 </html>
