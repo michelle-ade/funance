@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: indianred;
+    text-align: left;
+}
+
+table, th, td {
+    border: 2px solid bisque;
+    border-collapse: collapse;
+    color: white;
+}
+
+table {
+    width: 50%;
+}
+
+th, td {
+    background-color: cadetblue;
+}
+
+th {
+    padding: 10px;
+    font-size: large;
+}
+
+td {
+    padding: 5px;
+}
